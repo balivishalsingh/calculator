@@ -1,0 +1,71 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    height: 600px;
+    width: 420px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgb(255, 203, 107), -3px -3px 8px rgb(247, 211, 145);
+}
+
+.heading
+{
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px 2px 5px orange;
+}
+
+#display
+{
+    height: 60px;
+    width: 410px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: right;
+    box-shadow:inset 3px 3px 2px rgb(255, 191, 0),inset -1px -1px 2px rgb(244, 217, 63) ;
+}
+
+.btns
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.button
+{
+    height: 75px;
+    width: 75px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 2px 5px orange, -2px -2px 5px rgb(247, 246, 245);
+}
+
+.button:active
+{
+    box-shadow: 2px 2px 5px black, -2px -2px 5px rgb(85, 84, 84);
+}
+
+.button:hover
+{
+    background-color: rgb(255, 166, 0);
+}
